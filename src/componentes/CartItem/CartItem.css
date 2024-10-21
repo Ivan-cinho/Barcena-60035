@@ -1,0 +1,26 @@
+.cart-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 30%;
+    padding: 20px; 
+}
+
+.cart-item h3, .cart h2, .cart-item p, .cart-item button {
+    text-align: center;
+    margin: 10px 0;
+}
+
+button {
+    background-color: var(--color-principal);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-secundario-hover); 
+}

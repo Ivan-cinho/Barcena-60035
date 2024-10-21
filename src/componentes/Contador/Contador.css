@@ -1,0 +1,20 @@
+.contador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+}
+
+.contador button {
+    background-color: var(--color-principal);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contador button:hover {
+    background-color: var(--color-secundario);
+}

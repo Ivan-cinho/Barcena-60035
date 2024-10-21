@@ -1,0 +1,54 @@
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables globales */
+:root {
+    --color-principal: rgb(130, 98, 160); 
+    --color-secundario: rgb(173, 123, 186); 
+    --color-secundario-hover: rgb(150, 102, 163);
+    --color-fondo: rgb(241, 241, 241);
+    --color-texto: #333;
+    --fuente-principal: 'Arial', sans-serif;
+    --fuente-secundaria: 'Verdana', sans-serif;
+}
+
+/* Tipografía global */
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fuente-secundaria);
+    color: var(--color-principal);
+}
+
+/* Botones */
+button {
+    background-color: var(--color-principal);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1%;
+}
+
+button:hover {
+    background-color: var(--color-secundario);
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: var(--color-secundario);
+}
+
+a:hover {
+    color: var(--color-secundario-hover);
+}

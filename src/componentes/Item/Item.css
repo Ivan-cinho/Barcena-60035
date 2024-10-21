@@ -1,0 +1,13 @@
+
+.cardProducto {
+    padding: 1%;
+    background-color: rgb(241, 241, 241);
+    margin: 2% auto;
+    text-align: center; 
+}
+
+h3, p {
+    margin: 2% auto;
+    text-align: center;
+}
+
