@@ -11,7 +11,7 @@ const CartWidget = () => {
 
     useEffect(() => {
     const fetchCarritoUrl = async () => {
-        try {
+        try { // una mod
             const carritoDoc = await getDoc(doc(db, "imagenes", "carrito"));
             if (carritoDoc.exists()) {
             setCarritoUrl(carritoDoc.data().ubicacion);

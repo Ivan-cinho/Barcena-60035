@@ -12,7 +12,7 @@ const Whatsapp = () => {
         const whatsappDoc = await getDoc(doc(db, "imagenes", "whatsapp"));
         if (whatsappDoc.exists()) {
             setWhatsappUrl(whatsappDoc.data().ubicacion);
-        } else {
+        } else { //una mod
             console.error("El documento 'whatsapp' no existe en la colección 'imagenes'");
         }
         } catch (error) {

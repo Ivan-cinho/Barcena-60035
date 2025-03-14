@@ -10,7 +10,7 @@ const Brand = () => {
 
     useEffect(() => {
         const fetchBrandUrls = async() => {
-            try {
+            try { //una mod
                 const brandDoc = await getDoc(doc(db, "imagenes", "brand"));
                 if(brandDoc.exists()) {
                     setBrandUrl(brandDoc.data().ubicacion);
